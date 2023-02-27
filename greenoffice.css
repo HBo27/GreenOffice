@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    background-image: url("fond.png");
+}
+
+.container {
+    background-color: white;
+    margin: 0px auto;
+    width: 750px;
+    height: 870px;
+}
+
+header {
+    background-color: #B8CB21;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 400px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: 'Oswald', sans-serif;
+    color: #314723;
+    font-size: 20px;
+}
+
+.part1 {
+    margin: 40px 20px;
+}
+
+.part2 {
+    margin: 75px 20px;
+}
+
+.float {
+    display: flex;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #B8CB21;
+}
+
+.parag {
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #B8CB21;
+    color: white;
+    border: none;
+    padding: 10px;
+    float: right;
+}
+
+.footer {
+    margin: 20px 140px;
+    text-align: center;
+}
+
+.footer {
+    font-size: 12px;
+}
